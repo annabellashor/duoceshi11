@@ -23,3 +23,27 @@ saveuser_data={ "id":"",
                 "confirmPwd":"13012345678"}
 
 
+findtext_url="http://cms.duoceshi.cn/cms/manage/findCategoryByPage.do"
+findtext_data={"parentId":5,
+               "categoryName":"",
+               'page':1}
+
+savetext_url="http://cms.duoceshi.cn/cms/manage/saveModuleCategory.do"
+savetext_data={"id":"",
+                "categoryName":"1656123132",
+                "parentId":5,
+                "parentId":"",
+                "categoryCode":"4651212",
+                "categoryDesc":"5+6+24651",
+                "keyTitle":"46551",
+                "keyWords":"456231",
+                "keyDesc":"45612"}
+
+deluser_url="http://cms.duoceshi.cn/cms/manage/deleteByIds.do"
+deluser_data={"ids":125967}
+
+deltext_url="http://cms.duoceshi.cn/cms/manage/deleteCategoryByIds.do"
+deltext_data={"ids":1665}
+
+
+
