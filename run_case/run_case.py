@@ -17,5 +17,3 @@ runner=HTMLTestRunner(stream=f,
                       description="用例执行情况如下：",
                       tester="小刘")
 runner.run(discover)
-
-# print(bath_path)
