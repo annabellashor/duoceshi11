@@ -1,13 +1,11 @@
 # coding=utf-8
 
 login_url="http://cms.duoceshi.cn/cms/manage/loginJump.do"
-login_headers={"Content-Type": "application/x-www-form-urlencoded"}
 login_data={"userAccount": "admin",
             "loginPwd": "123456"}
 
 
 query_url='http://cms.duoceshi.cn/cms/manage/queryUserList.do'
-query_headers={"Content-Type": "application/x-www-form-urlencoded"}
 query_data={"startCreateDate":"",
             "endCreateDate":"",
             "searchValue":"",
